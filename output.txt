@@ -1,0 +1,7 @@
+VCD info: dumpfile dump.vcd opened for output.
+Time=0 PC=00000000 Instr=0110c000 rs1= 1 rs2= 2 rd= 3 A=        10 B=         5 Result=        15
+Time=5 PC=00000004 Instr=21110000 rs1= 1 rs2= 2 rd= 4 A=        10 B=         5 Result=         5
+Time=15 PC=00000008 Instr=41114000 rs1= 1 rs2= 2 rd= 5 A=        10 B=         5 Result=         0
+Time=25 PC=0000000c Instr=61118000 rs1= 1 rs2= 2 rd= 6 A=        10 B=         5 Result=        15
+Time=35 PC=00000010 Instr=00000000 rs1= 0 rs2= 0 rd= 0 A=         0 B=         0 Result=         0
+testbench.v:26: $finish called at 200 (1s)
