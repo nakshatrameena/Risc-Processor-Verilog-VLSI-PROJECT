@@ -70,6 +70,7 @@ gtkwave dump.vcd
 You can run this RISC Processor directly in your browser using EDA Playground:
 
 👉 https://www.edaplayground.com/x/JzJ3
+[![Run Simulation](https://img.shields.io/badge/Run%20Simulation-EDA%20Playground-blue?style=for-the-badge)](https://www.edaplayground.com/x/JzJ3)
 
 ### ⚡ Instructions
 - Click the link above
