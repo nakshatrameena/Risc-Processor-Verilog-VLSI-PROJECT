@@ -63,6 +63,23 @@ gtkwave dump.vcd
 
 ---
 
+---
+
+## 🔬 Run Live Simulation (No Setup Required)
+
+You can run this RISC Processor directly in your browser using EDA Playground:
+
+👉 https://www.edaplayground.com/x/JzJ3
+
+### ⚡ Instructions
+- Click the link above
+- Click ▶ **Run**
+- Waveform will open automatically (EPWave)
+
+No installation required 🚀
+
+---
+
 ## 📊 Sample Output
 
 ```
