@@ -2,9 +2,32 @@
 <html>
 <head>
   <title>RISC Processor VLSI Project</title>
+
   <style>
-    body { font-family: Arial; margin: 40px; background: #f4f6f8; }
-    h1 { color: #2c3e50; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f4f6f8;
+      color: #2c3e50;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    .container {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+
     .card {
       background: white;
       padding: 20px;
@@ -12,26 +35,73 @@
       margin-bottom: 20px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     }
-    a { color: blue; }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      color: white;
+      margin-top: 10px;
+    }
+
+    .btn-green {
+      background: #27ae60;
+    }
+
+    .btn-blue {
+      background: #2980b9;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    pre {
+      background: #eee;
+      padding: 10px;
+      border-radius: 5px;
+      overflow-x: auto;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #2c3e50;
+      color: white;
+      margin-top: 20px;
+    }
   </style>
 </head>
+
 <body>
 
+<header>
   <h1>🧠 RISC Processor (Verilog VLSI Project)</h1>
+  <p>Designed & Simulated using Verilog HDL</p>
+</header>
+
+<div class="container">
 
   <div class="card">
     <h2>📌 Overview</h2>
-    <p>32-bit RISC processor implemented in Verilog HDL with full instruction cycle.</p>
+    <p>
+      This project implements a <b>32-bit RISC processor</b> using Verilog HDL.
+      It simulates the complete instruction execution cycle including
+      <b>Fetch, Decode, Execute, and Write-back</b>.
+    </p>
   </div>
 
   <div class="card">
     <h2>⚙️ Features</h2>
     <ul>
-      <li>Program Counter</li>
+      <li>32-bit Architecture</li>
+      <li>Program Counter (PC)</li>
       <li>Instruction Memory</li>
-      <li>Register File</li>
-      <li>ALU Operations (ADD, SUB, AND, OR)</li>
-      <li>Control Unit</li>
+      <li>Register File (32 registers)</li>
+      <li>ALU Operations: ADD, SUB, AND, OR</li>
+      <li>Control Unit for instruction decoding</li>
+      <li>Waveform Simulation using GTKWave</li>
     </ul>
   </div>
 
@@ -46,11 +116,37 @@ Time=25  PC=0000000c A=10 B=5 Result=15   (OR)
   </div>
 
   <div class="card">
-    <h2>🔗 GitHub</h2>
-    <a href="https://github.com/nakshatrameena/Risc-Processor-Verilog-VLSI-PROJECT">
-      View Repository
+    <h2>🧪 Run Live Simulation</h2>
+    <p>Click below to run the Verilog RISC processor online:</p>
+
+    <a href="https://www.edaplayground.com/x/JzJ3" target="_blank" class="btn btn-green">
+      ▶ Run on EDA Playground
     </a>
   </div>
+
+  <div class="card">
+    <h2>🌊 Waveform Analysis</h2>
+    <p>
+      Simulation waveforms (PC, Instruction, ALU inputs/outputs, control signals)
+      can be visualized using <b>GTKWave</b> inside EDA Playground.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>🔗 Source Code</h2>
+    <p>Explore the complete project repository:</p>
+
+    <a href="https://github.com/nakshatrameena/Risc-Processor-Verilog-VLSI-PROJECT" 
+       target="_blank" class="btn btn-blue">
+       View on GitHub
+    </a>
+  </div>
+
+</div>
+
+<footer>
+  👨‍💻 Created by Nakshatra Meena | VLSI Project Portfolio
+</footer>
 
 </body>
 </html>
