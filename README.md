@@ -2,7 +2,9 @@
 
 ## 🌐 Live Project Demo
 
-👉 https://risc-processor-verilog-vlsi-project.onrender.com/
+👉 <a href="https://risc-processor-verilog-vlsi-project.onrender.com/" target="_blank" class="btn btn-green">
+      ▶ Run on EDA Playground
+    </a>
 
 ---
 
